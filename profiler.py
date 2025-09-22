@@ -57,8 +57,8 @@ def banner():
                 ⠀⢀⣄⠈⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     """)
-    print("        Get someone's digital identity anonymously 👻 ")
-    print("             Made by "+Style.BRIGHT+Fore.RED+"TheRealDalunacrobate "+Fore.RESET+Style.RESET_ALL+"with 💝")
+    print("        Get someone's digital identity anonymously")
+    print("             Made by "+Style.BRIGHT+Fore.RED+"NewWorldDepression "+Fore.RESET+Style.RESET_ALL+"with 💝")
 banner()
 
 # Get the arguments
@@ -101,7 +101,7 @@ except FileExistsError:
 # Main
 try:
     if pren and name is not None:
-        print("\n🎭 Finding and filtering online identities ...")
+        print("\nFinding and filtering online identities ...")
         try:
             copainsdavant_results = copainsdavant_search.copains_davant(name=name,pren=pren)
         except:

@@ -8,7 +8,7 @@ leakcheck
 update_check
 httpx
 tqdm
-linkedin-api~=2.0.0a
+linkedin-api
 statistics
 python-socketio
 numpy

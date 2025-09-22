@@ -1,5 +1,7 @@
 import leakcheck
-from leakcheck import LeakCheckAPI
+from leakcheck import LeakCheckAPI_Public as LeakCheckAPI
+# or: from leakcheck import LeakCheckAPI_v2 as LeakCheckAPI
+
 
 from colorama import Fore
 
