@@ -1,4 +1,6 @@
 from selenium import webdriver
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service as FirefoxService
 from colorama import Fore
 import time
 
